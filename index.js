@@ -1,7 +1,17 @@
 #!/usr/bin/env node
-import clear from 'clear-any-console';
+import packageJSON from './package.json' assert { type: 'json' };
+import welcome from 'cli-welcome';
 
-console.clear();
+// Clears the console
+console.log();
+
+welcome({
+  title: packageJSON.name,
+  tagline: packageJSON.description,
+  version: packageJSON.version,
+  clear: true,
+});
+
 console.log(`
 Mekael Turner - Developer
 

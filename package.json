@@ -1,11 +1,13 @@
 {
   "name": "mekael-cli",
-  "type": "module",
   "version": "0.0.3",
+  "description": "Get to know Mekael via 'npx mekael-cli'.",
+  "type": "module",
   "bin": {
     "mekael": "index.js"
   },
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "clear-any-console": "^1.16.2",
+    "cli-welcome": "^2.2.2"
   }
 }
