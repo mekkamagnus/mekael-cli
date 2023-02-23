@@ -1,0 +1,7 @@
+{
+  "name": "mekael-cli",
+  "version": "0.0.1",
+  "bin": {
+    "mekael": "index.js"
+  }
+}
