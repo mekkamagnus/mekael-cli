@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+import clear from 'clear-any-console';
+
+console.clear();
 console.log(`
 Mekael Turner - Developer
 
