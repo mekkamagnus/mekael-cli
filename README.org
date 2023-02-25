@@ -7,7 +7,7 @@
 To use this CLI run the following command:
 
 #+begin_src bash
-  npx mekael
+  npm mekael
 #+end_src
 
 
