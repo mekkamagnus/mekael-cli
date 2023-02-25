@@ -1,0 +1,13 @@
+* `npx mekael` 
+#+begin_quote
+  Get to know Mekael Turner using your command line with Node.js
+#+end_quote
+
+** Usage
+To use this CLI run the following command:
+
+#+begin_src bash
+  npx mekael
+#+end_src
+
+

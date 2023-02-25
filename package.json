@@ -8,5 +8,10 @@
   },
   "dependencies": {
     "cli-welcome": "^2.2.2"
-  }
+  },
+  "keywords": [
+    "mekael turner",
+    "mekael",
+    "turner"
+  ]
 }
