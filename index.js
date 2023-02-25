@@ -7,11 +7,14 @@ console.log();
 
 welcome({
   title: packageJSON.name,
-  tagline: packageJSON.description,
+  tagline: `Hey, nice to meet you!`,
+  description: packageJSON.description,
   version: packageJSON.version,
+  bgColor: `#AFE1AF`,
+  color: `#FFFFFF`,
+  bold: true,
   clear: true,
 });
-
 console.log(`
 Mekael Turner - Developer
 
